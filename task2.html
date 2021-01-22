@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>survey form</title>
+    <link rel="stylesheet" href="task2.css">
+</head>
+<body>
+    <h1>Survey Form</h1>
+    <div class="container">
+        <form id="form">
+            <!--first section information about name,email,age -->
+            <section class="info">
+                <h3>Let us know how we can improve freeCodeCamp</h3>
+                <div class="label">
+                <label >*  Name: &nbsp;</label>
+                <input  type="text" placeholder="Enter your name">
+                </div>
+                <div class="label">
+                <label>* Email: &nbsp; </label>
+                <input type="text" placeholder="Enter your Email">
+                </div>
+                <div class="label">
+                <label> &nbsp; * Age: &nbsp;</label>
+                <input type="number" placeholder="Age">
+                </div>
+            </section>
+             <!--end first section information about name,email,age -->
+            <!-- second  section information about role,recommended -->
+            <section class="second">
+                <h4 class="head1">Which option best describe your current role? </h4>
+                <select>
+                    <option>Student</option>
+                    <option>Worker</option>
+                    <option>else</option>
+                </select>
+                <h4 class="head2">* How likely is that you would recommend <br/><span> freeCodeCamp to a friend? </span></h4>
+                <div class="right">
+                     <div class="radi">
+                       <input type="radio" name="radio" id="one"> 
+                       <label for="one">Definitely</label>
+                     </div>
+                     <div class="radi">
+                      <input type="radio" name="radio" id="two"> 
+                      <label for="two">Maybe</label>
+                     </div>
+                     <div class="radi">
+                       <input type="radio" name="radio" id="three"> 
+                      <label for="three">Not sure</label>
+                    </div>
+                </div>
+            </section>
+            <!--end second  section information about role,recommended -->
+            <!--start third and last section-->
+            <section class="last-section">
+                <h4 class="head3">What do you like most in FCC:</h4>
+                <select>
+                    <option>Select an option</option>
+                    <option>option 1</option>
+                    <option>option 2</option>
+                </select>
+                <h4 class="head4">Things that should be improved in the future <br/><span>(Check all that apply): </span></h4>
+                <div class="right2">
+                     <div class="radi2">
+                       <input type="radio" name="radio" id="1"> 
+                       <label for="1">Front-end Projects</label>
+                     </div>
+                     <div class="radi2">
+                      <input type="radio" name="radio" id="2"> 
+                      <label for="2">Back-end Projects</label>
+                     </div>
+                     <div class="radi2">
+                       <input type="radio" name="radio" id="3"> 
+                      <label for="3">Data Visualization</label>
+                    </div>
+                </div>
+            </section>
+             <!--end third and last section-->
+        </form>
+
+    </div>
+</body>
+</html>

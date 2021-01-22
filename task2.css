@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Quicksand:wght@300&display=swap');
+*{
+    
+    font-family: 'Quicksand','Times New Roman';
+}
+body{
+    background-color: #a6d8cd;
+}
+/* first heading*/
+h1{
+    color: black;
+    text-align: center;
+    margin: 10px;
+    font-family: 'Noto Sans';
+}
+/* the white container*/
+.container{
+    background-color: snow;
+    width: 1238px;
+    height:800px ; 
+    margin: 25px 45px 80px 45px;
+}
+
+/* first section information about name,email,age*/
+.info h3{
+    text-align: center;
+    padding: 30px 0;
+    color: rgba(0, 0, 0, 0.87);
+}
+.info .label{
+    display: block;
+    margin: 25px 0 25px 515px;
+    font-weight: 600;
+    columns: #161515;;
+}
+.info .label input{
+    width: 320px;
+    height: 30px;
+    margin-left: 0;
+    outline: none;
+    padding-left: 10px;
+}
+/* second  section information about role,recommended*/
+.second .head1{
+    
+    padding: 20px 10px 20px 246px;
+    display: inline;
+
+}
+
+.second select{
+    outline: none;
+    width: 130px;
+    height: 30px;
+    font-weight:bold;
+    padding-left: 5px;
+    background-color: rgb(253, 241, 241);
+}
+.second .head2{
+    padding: 20px 10px 20px 268px;
+    display: inline-block;
+}
+.second .head2 span{  padding-left: 103px;}
+
+.second .right label,input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.second .right{
+    position: absolute;
+    right: 610px;
+    top: 437px;
+    
+}
+.second .radi{
+    display: block;
+    padding: 3px 0;
+}
+/* third section information what should improve*/
+.last-section .head3{
+    padding: 20px 10px 20px 334px;
+    display: inline-block;
+}
+.last-section select{
+    outline: none;
+    width: 150px;
+    height: 30px;
+    font-weight:bold;
+    background-color: rgb(253, 241, 241);
+}
+.last-section .head4{
+    padding: 20px 10px 20px 268px;
+    display: inline-block;
+}
+.last-section .head4 span{ padding-left: 160px;}
+
+.last-section .right2 label,input{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+.last-section .right2{
+    position: absolute;
+    right: 538px;
+    top:  655px;
+    
+}
+.last-section .radi2{
+    display: block;
+    padding: 3px 0;
+}
+.second .head1,
+.second .head2,
+.second .head2 span,
+.last-section .head3,
+.last-section .head4,
+.last-section .head4 span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
